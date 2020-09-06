@@ -1,3 +1,5 @@
+using DesignPatterns.FactoryMethod.Framework;
+
 namespace DesignPatterns.FactoryMethod
 {
     public class MyDocument : Document
@@ -9,7 +11,7 @@ namespace DesignPatterns.FactoryMethod
 
         public override string ToString()
         {
-            return $"Classe Concreta: {this}";
+            return "Classe Concreta: MyDocument";
         }
     }
 }

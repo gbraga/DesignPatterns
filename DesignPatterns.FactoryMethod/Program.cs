@@ -6,7 +6,7 @@ namespace DesignPatterns.FactoryMethod
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Exemplo de Factory Method");
 
             var app = new MyApplication();
             // var doc = app.CreateDocument();

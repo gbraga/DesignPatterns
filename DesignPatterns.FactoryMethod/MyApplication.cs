@@ -1,3 +1,5 @@
+using DesignPatterns.FactoryMethod.Framework;
+
 namespace DesignPatterns.FactoryMethod
 {
     public class MyApplication : Application
