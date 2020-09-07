@@ -1,6 +1,6 @@
-using DesignPatterns.FactoryMethod.Framework;
+using DesignPatterns.FactoryMethod.Default.Framework;
 
-namespace DesignPatterns.FactoryMethod
+namespace DesignPatterns.FactoryMethod.Default
 {
     public class MyApplication : Application
     {

@@ -1,4 +1,7 @@
-﻿using System;
+﻿using DesignPatterns.FactoryMethod.CreatorTemplate;
+using DesignPatterns.FactoryMethod.Default;
+using DesignPatterns.FactoryMethod.Default.Framework;
+using System;
 
 namespace DesignPatterns.FactoryMethod
 {
@@ -12,6 +15,9 @@ namespace DesignPatterns.FactoryMethod
             // var doc = app.CreateDocument();
             var doc = app.NewDocument();
             Console.WriteLine(doc.ToString());
+
+
+            var app2 = new MyProduct(); 
 
             Console.ReadKey();
         }

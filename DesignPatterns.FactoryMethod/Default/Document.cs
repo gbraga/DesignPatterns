@@ -1,4 +1,4 @@
-namespace DesignPatterns.FactoryMethod.Framework
+namespace DesignPatterns.FactoryMethod.Default.Framework
 {
     public abstract class Document
     {
